@@ -18,17 +18,18 @@ html {
 
 html {
   background-color: lightskyblue;
-  margin: 0 2em 0 2em;
 }
 
 .woof {
   margin: 0 auto;
   margin-top: -20%;
+  margin-bottom: -20%;
 }
 
-@media only screen and (min-width 60em) {
+@media only screen and (min-width: 60em) {
   .woof {
-    background-color: red;
+    margin-top: -5em;
+  margin-bottom: -10%;
   }
 }
 
