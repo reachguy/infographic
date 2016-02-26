@@ -18,4 +18,40 @@ html {
 
 html {
   background-color: lightskyblue;
+  margin: 0 2em 0 2em;
+}
+
+.woof {
+  margin: 0 auto;
+  margin-top: -20%;
+}
+
+@media only screen and (min-width 60em) {
+  .woof {
+    background-color: red;
+  }
+}
+
+.core {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.personality {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.speaking-of {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.tech {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
 }
